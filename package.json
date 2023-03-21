@@ -1,0 +1,21 @@
+{
+  "name": "tutorialtoken",
+  "version": "1.0.0",
+  "description": "Consider following [this tutorial](https://forum.openzeppelin.com/t/create-an-erc20-using-truffle-without-writing-solidity/2713) to create an ERC20 with truffle instead.",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2"
+  }
+}
